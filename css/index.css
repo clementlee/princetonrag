@@ -1,0 +1,16 @@
+body {
+	text-rendering:optimizeLegibility;
+}
+
+header {
+	width:100%;
+	height:100px;
+	background:black;
+	text-align:center;
+	font-family:'Helvetica Neue Light', sans-serif;
+}
+
+span#title {
+	background:yellow;
+	line-height:130%;
+}
