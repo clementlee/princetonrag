@@ -1,16 +1,45 @@
 body {
 	text-rendering:optimizeLegibility;
+	margin:0;
+	padding:0;
+	font-family:'Lato', sans-serif;
 }
 
-header {
+nav {
 	width:100%;
 	height:100px;
 	background:black;
-	text-align:center;
-	font-family:'Helvetica Neue Light', sans-serif;
+}
+#topbar {
+	width:900px;
+	margin: 0 auto;
 }
 
-span#title {
+#title {
+	font-family:'Roboto', sans-serif;
+	font-weight:900;
+	margin: auto 0;
 	background:yellow;
-	line-height:130%;
+	line-height:50px;
+	text-align:left;
+	font-size:35px;
+	white-space:nowrap;
+}
+
+.navbut {
+	font-size:24px;
+	float:right;
+	color:#00aaff;
+	line-height:100px;
+}
+
+#maincont {
+	text-align:center;
+	font-size:24px;
+	padding:25px;
+}
+
+footer {
+	font-size:16px;
+	padding:25px;
 }
