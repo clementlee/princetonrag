@@ -8,13 +8,34 @@ body {
 nav {
 	width:100%;
 	height:100px;
-	background:black;
+	background:rgba(0,0,0,0);
 }
 #topbar {
 	width:900px;
 	margin: 0 auto;
+	background:black;
+	height:100px;
 }
-
+.topfill {
+	width:50%;
+	position:absolute;
+	z-index:-1;
+	height:100px;
+	top:0;
+}
+#fillleft {
+	background:gray;
+	float:left;
+	left:0;
+}
+#fillright {
+	background:black;
+	float:right;
+	right:0;
+}
+#titlediv {
+	float:left;
+}
 #title {
 	font-family:'Roboto', sans-serif;
 	font-weight:900;
@@ -25,8 +46,10 @@ nav {
 	font-size:35px;
 	white-space:nowrap;
 }
-
-.navbut {
+.navdiv {
+	float:right;
+}
+.navspan {
 	font-size:24px;
 	float:right;
 	color:#00aaff;
